@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows 11 Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="h-screen w-screen overflow-hidden bg-[url('https://img.freepik.com/premium-photo/scenic-view-lake-against-mountains_1048944-16804147.jpg?ga=GA1.1.83045438.1750656702&semt=ais_hybrid&w=740')] bg-cover"
+  >
+    <!-- Desktop -->
+    <!-- Desktop Section -->
+    <div
+      id="desktop"
+      class="relative h-screen w-screen bg-cover bg-center p-4"
+      style="
+        background-image: url('https://cdn.opehttps://imgs.search.brave.com/wzrqhX5JHLoNEmqIk6fthX9Gc2HghHQtyXUl-LTNwOg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bmVvd2luLmNvbS9u/ZXdzL2ltYWdlcy91/cGxvYWRlZC8yMDIz/LzExLzE2OTkwOTgx/MDNfd2luZG93c18x/MF9hbmRfd2luZG93/c18xMV9tZWRpdW0u/anBn');
+      "
+    >
+      <div class="absolute top-6 left-6 flex gap-8">
+        <!-- Column 1 -->
+        <!-- <div class="flex flex-col gap-6 items-center text-white text-sm">
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/color/48/photos.png" class="w-10 h-10" />
+        <span class="text-center mt-1">Photos</span>
+      </div>
+
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/color/48/ms-edge-new.png" class="w-10 h-10" />
+        <span class="text-center mt-1">Microsoft Edge</span>
+      </div>
+
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/color/48/youtube-play.png" class="w-10 h-10" />
+        <span class="text-center mt-1">YouTube (2)</span>
+      </div>
+
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/windows/32/folder-invoices.png" class="w-10 h-10" />
+        <span class="text-center mt-1">Projects</span>
+      </div>
+    </div> -->
+
+        <!-- Column 2
+    <div class="flex flex-col gap-6 items-center text-white text-sm">
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/color/48/git.png" class="w-10 h-10" />
+        <span class="text-center mt-1">GitHub</span>
+      </div>
+
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" class="w-10 h-10" />
+        <span class="text-center mt-1">VS Code</span>
+      </div>
+
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/color/48/google-chrome.png" class="w-10 h-10" />
+        <span class="text-center mt-1">Chrome</span>
+      </div>
+
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/fluency/48/recycle-bin.png" class="w-10 h-10" />
+        <span class="text-center mt-1">Recycle Bin</span>
+      </div>
+    </div>
+
+    <!-- Column 3 -->
+        <!-- <div class="flex flex-col gap-6 items-center text-white text-sm">
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/windows/32/computer.png" class="w-10 h-10" />
+        <span class="text-center mt-1">This PC</span>
+      </div>
+
+      <div class="flex flex-col items-center w-16">
+        <img src="https://img.icons8.com/color/48/figma--v1.png" class="w-10 h-10" />
+        <span class="text-center mt-1">Figma</span>
+      </div>
+
+      <!-- Add more icons as needed -->
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!-- Start Menu -->
+    <div
+      id="start-menu"
+      class="absolute bottom-16 left-1/2 transform -translate-x-1/2 w-[420px] rounded-2xl shadow-xl bg-white p-4 hidden z-50"
+    >
+      <input
+        type="text"
+        placeholder="Search for apps, settings and documents"
+        class="w-full px-4 py-2 rounded-xl border border-gray-300 mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      />
+
+      <!-- Pinned -->
+      <h2 class="text-gray-600 font-semibold mb-2">Pinned</h2>
+      <div class="grid grid-cols-6 gap-4 text-center text-sm text-gray-700">
+        <div>
+          <img src="https://img.icons8.com/3d-fluency/32/folder-invoices.png" />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/color/32/chrome--v1.png" />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/fluency/32/facebook-new.png" />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/color/32/code.png" />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/128/5977/5977590.png" />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/color/32/virtualbox.png" />
+          <div></div>
+        </div>
+        <div>
+          <img
+            class="h-6 w-6"
+            src="https://cdn-icons-png.flaticon.com/128/3536/3536445.png"
+          />
+          <div></div>
+        </div>
+        <div>
+          <img
+            class="h-6 w-6"
+            src="https://cdn-icons-png.flaticon.com/128/74/74842.png"
+          />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/fluency/32/settings.png" />
+          <div></div>
+        </div>
+        <div>
+          <img
+            class="h-10 w-10"
+            src="https://cdn-icons-png.flaticon.com/128/8669/8669669.png"
+          />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/color/32/remote-desktop.png" />
+          <div></div>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/color/32/ms-outlook.png" />
+          <div></div>
+        </div>
+      </div>
+
+      <!-- Recommended -->
+      <div class="mt-6">
+        <h2 class="text-gray-600 font-semibold mb-2">Recommended</h2>
+        <div class="flex items-center gap-3 text-sm text-gray-700">
+          <img src="https://img.icons8.com/color/32/docker.png" />
+          <div>
+            <p>Docker Desktop</p>
+            <span class="text-xs text-gray-500">Recently added</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 mt-2 text-sm text-gray-700">
+          <img src="https://img.icons8.com/fluency/32/file.png" />
+          <div>
+            <p>20200124_164116.jpg</p>
+            <span class="text-xs text-gray-500">Tuesday at 10:54 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="mt-6 flex justify-between items-center px-2">
+        <div class="flex items-center gap-2">
+          <img
+            class="w-6 h-6 rounded-full"
+            src="https://img.icons8.com/color/48/user.png"
+          />
+          <span class="text-gray-800 font-medium">tanvir</span>
+        </div>
+        <button>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1144/1144760.png"
+            class="w-5 h-5"
+          />
+        </button>
+      </div>
+    </div>
+
+    <!-- Taskbar -->
+    <!-- Windows 11 Style Taskbar -->
+    <div
+      class="fixed bottom-0 w-full h-12 bg-black bg-opacity-70 backdrop-blur-md flex items-center justify-between px-4 text-white z-50"
+    >
+      <!-- Left: Weather Info -->
+      <div class="flex items-center gap-1 text-sm">
+        <img
+          src="https://img.icons8.com/fluency/24/partly-cloudy-day.png"
+          class="w-5 h-5"
+        />
+        <span>26°C</span>
+        <span class="text-gray-300 ml-1">Haze</span>
+      </div>
+
+      <!-- Center: Start + Search + Apps -->
+      <div class="flex gap-4 items-center">
+        <!-- Start Button -->
+        <button id="start-btn" class="hover:bg-gray-700 p-1.5 rounded">
+          <img src="https://img.icons8.com/fluency/28/windows-11.png" />
+        </button>
+
+        <!-- Search -->
+        <div
+          class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full flex items-center gap-2 text-sm"
+        >
+          <img src="https://img.icons8.com/ios-filled/16/search--v1.png" />
+          <span>Quick search</span>
+        </div>
+
+        <!-- App Icons -->
+        <div class="flex items-center gap-3">
+          <img
+            src="https://img.icons8.com/ios-filled/24/document.png"
+            class="w-5 h-5"
+          />
+          <img
+            src="https://img.icons8.com/color/24/chrome--v1.png"
+            class="w-5 h-5"
+          />
+          <img
+            src="https://img.icons8.com/ios/24/notepad.png"
+            class="w-5 h-5"
+          />
+          <img
+            src="https://img.icons8.com/color/24/linkedin.png"
+            class="w-5 h-5"
+          />
+          <img
+            src="https://img.icons8.com/color/24/windows-explorer.png"
+            class="w-5 h-5"
+          />
+          <img
+            src="https://img.icons8.com/color/24/visual-studio-code-2019.png"
+            class="w-5 h-5"
+          />
+          <img
+            src="https://img.icons8.com/color/24/brave.png"
+            class="w-5 h-5"
+          />
+        </div>
+      </div>
+
+      <!-- Right: System Tray -->
+      <div class="flex items-center gap-2 text-xs">
+        <span class="text-gray-400">ENG</span>
+        <span class="text-gray-400">IN</span>
+        <img src="https://img.icons8.com/ios-glyphs/16/expand-arrow--v1.png" />
+        <img src="https://img.icons8.com/ios-filled/16/wifi--v1.png" />
+        <img src="https://img.icons8.com/ios-filled/16/speaker.png" />
+        <img src="https://img.icons8.com/ios-filled/16/battery--v1.png" />
+        <span class="ml-2">10:53</span>
+        <span class="ml-1">23-06-2025</span>
+        <img
+          src="https://img.icons8.com/ios-filled/16/squared-menu.png"
+          class="ml-1"
+        />
+      </div>
+    </div>
+
+    <!-- Context Menu -->
+    <ul
+      id="context-menu"
+      class="hidden absolute bg-white shadow-md rounded w-40 border z-50"
+    >
+      <li id="new-folder" class="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+        🗂️ New Folder
+      </li>
+      <li id="refresh" class="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+        🔄 Refresh
+      </li>
+    </ul>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
