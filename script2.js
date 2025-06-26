@@ -1,3 +1,9 @@
+const startBtn = document.getElementById("start-btn");
+const startMenu = document.getElementById("start-menu"); // used consistently
+const contextMenu = document.getElementById("context-menu");
+const desktop = document.getElementById("desktop");
+const newFolderBtn = document.getElementById("new-folder");
+const refreshBtn = document.getElementById("refresh");
 
 // Toggle Start Menu
 startBtn.addEventListener("click", () => {
